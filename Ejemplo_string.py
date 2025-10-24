@@ -17,4 +17,4 @@ print(reporte)
 # split() para dividir
 data_log = "ERROR,Sensor_Temp,Valor_Alto,45.5"
 partes_log = data_log.split(',')
-print(f"Tipo de Log: {partes_log[0]}") # 'ERROR'
+print(f"Tipo de Log: {partes_log[0]}") # 'NO VALIDO'
