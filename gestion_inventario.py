@@ -1,9 +1,6 @@
-# gestion_inventario.py - VERSIÓN COMPLETA Y SIMPLE
-
-print("=== SISTEMA DE GESTIÓN ===")
 
 # PARTE 1: INVENTARIO
-print("\n1. INVENTARIO DE COMPONENTES")
+print("\nINVENTARIO DE COMPONENTES")
 
 # Crear inventario
 inventario = [
@@ -17,7 +14,7 @@ for comp in inventario:
     print(f"ID: {comp['id']}, Tipo: {comp['tipo']}, Lecturas: {comp['lecturas']}")
 
 # Calcular promedio para S-101
-print("\n2. PROMEDIO DE LECTURAS")
+print("\nPROMEDIO DE LECTURAS")
 id_buscar = "S-101"
 for comp in inventario:
     if comp["id"] == id_buscar:
@@ -26,7 +23,7 @@ for comp in inventario:
         break
 
 # PARTE 2: EXPERIMENTOS
-print("\n3. ANÁLISIS DE EXPERIMENTOS")
+print("\nANÁLISIS DE EXPERIMENTOS")
 
 # Conjuntos de experimentos
 equipo_A = {("EXP-001", "2023-10-01"), ("EXP-002", "2023-10-02"), ("EXP-003", "2023-10-03")}
@@ -41,5 +38,3 @@ solo_A = equipo_A - equipo_B    # Diferencia
 print("Experimentos en común:", en_comun)
 print("Todos los experimentos:", todos)
 print("Solo Equipo A:", solo_A)
-
-print("\n=== FIN DEL PROGRAMA ===")

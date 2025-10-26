@@ -1,6 +1,4 @@
-# gestion_inventario.py - Ejercicios para Principiantes
-
-print("=== EJERCICIO 1: CLASIFICADOR DE INVENTARIO ===")
+print("CLASIFICADOR DE INVENTARIO")
 
 # Lista de inventario
 inventario = [
@@ -33,15 +31,15 @@ print(f"Sensores: {sensores}")
 print(f"Motores: {motores}")
 print(f"Válvulas: {valvulas}")
 
-print("\n" + "="*50)
-print("=== EJERCICIO 2: SIMULADOR DE LLENADO DE TANQUE ===")
+
+print("EJERCICIO 2: SIMULADOR DE LLENADO DE TANQUE")
 
 # Configuración inicial
 volumen_actual = 0
 tasa_flujo = 50.5
 minuto = 0
 
-print("Iniciando simulación...")
+print("Inicio simulación")
 
 # Simular llenado
 while volumen_actual < 1000:

@@ -24,7 +24,7 @@ def analizar_componente(componente_dict):
 
 
 # Probamos la función con uno de los componentes:
-print("*** ANÁLISIS DE COMPONENTE ***")
+print("ANÁLISIS DE COMPONENTE")
 resultado = analizar_componente(inventario[0])
 print(f"ID: {inventario[0]['id']}")
 print(resultado)
@@ -38,5 +38,5 @@ sensores_criticos = list(filter(
 # Mapeo: obtener solo los IDs de esos sensores
 ids_sensores = list(map(lambda comp: comp["id"], sensores_criticos))
 
-print("\n*** SENSORES CRÍTICOS ***")
+print("\nSENSORES CRÍTICOS")
 print("IDs:", ids_sensores)
